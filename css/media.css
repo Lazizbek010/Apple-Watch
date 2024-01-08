@@ -1,0 +1,85 @@
+@media (max-width:910px){
+    .cards-content{
+        flex-wrap: wrap;
+        gap: 40px;
+    }
+    .card{
+        max-width: 45%;
+    }
+    .about-info {
+        flex-direction: column-reverse;
+        gap: 50px;
+        align-items: flex-start;
+    }
+    .about-info .left {
+        max-width: 100%;
+    }
+    .about-info .right{
+        width: 70%;
+        margin: 0 auto;
+        height: 530px;
+        object-fit: cover;
+    }
+    .about-info .right img{
+        width: 100%;
+    }
+}
+
+@media (max-width:740px){
+    .hero{
+        background-size: 500px 420px;
+    }
+    .about-info .title{
+        font-size: 40px;
+    }
+}
+@media (max-width:580px){
+    .cards-content{
+       flex-direction: column;
+    }
+    .card{
+        max-width: 100%;
+    }
+    .hero{
+        height: 630px;
+        background-size: 473px 363px;
+        background-position: bottom right -27px;
+    }
+}
+@media (max-width:560px){
+    .list-item{
+        display: none;
+    }
+    .bars{
+        display: block;
+    }
+    .nav .right{
+        gap: 25px;
+    }
+    .hero__content .left{
+        max-width: 100%;
+    }
+    .description {
+        padding-left: 15px;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+    .title {
+        font-size: 45px;
+        margin-bottom: 25px;
+    }
+    .about-info .right{
+        width: 100%;
+        height: 350px;
+    }
+    .info{
+        padding: 110px 0;
+    }
+}
+
+@media (max-width:450px){
+    .hero{
+        background-size: 390px 300px;
+        background-position: bottom right -97px;
+    }
+}

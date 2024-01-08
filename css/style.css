@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.logo {
+    display: block;
+}
+
+.nav .right {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.list-item {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.bars{
+    display: none;
+}
+
+.list-item a {
+    color: #333;
+    font-size: 15px;
+    line-height: 150%;
+    transition: .3s;
+    position: relative;
+}
+
+.list-item a:hover {
+    color: #EA625C;
+}
+
+.list-item a::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: transparent;
+}
+
+.list-item a:hover::after {
+    background-color: #EA625C;
+}
+
+.list-item a.active {
+    color: #EA625C;
+}
+
+.list-item a.active::after {
+    background-color: #EA625C;
+}
+
+.search {
+    width: 153px;
+    border-bottom: 1px solid #333;
+    padding-bottom: 6px;
+}
+
+.search input {
+    border: none;
+    outline: none;
+    font-size: 15px;
+    line-height: 150%;
+}
+
+.search input::placeholder {
+    color: #666;
+}
+
+.site-btn {
+    padding: 12px;
+    min-width: 260px;
+    background: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+    border: 3px solid transparent;
+    transition: .3s;
+}
+
+.site-btn:hover {
+    cursor: pointer;
+    border-color: #EA625C;
+    background-color: transparent;
+    color: #333;
+}
+
+.title {
+    color: #000;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 120%;
+    margin-bottom: 30px;
+}
+
+.description {
+    color: #777;
+    font-size: 16px;
+    line-height: 150%;
+    border-left: 3px solid #888;
+    padding-left: 40px;
+    margin-bottom: 30px;
+
+}
+
+.hero {
+    margin-top: 80px;
+    height: 565px;
+    background-image: url('../images/intro-bg.png');
+    background-repeat: no-repeat;
+    background-size: 587px 565px;
+    background-position: bottom right -197px;
+}
+
+.hero__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero__content .left {
+    max-width: 490px;
+}
+
+.cards {
+    padding: 70px 0;
+}
+
+.cards-content {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.card {
+    max-width: 280px;
+}
+
+.card-title {
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 150%;
+    text-transform: uppercase;
+}
+
+.card p {
+    color: #333;
+    font-size: 15px;
+    line-height: 160%;
+    margin-bottom: 20px;
+}
+
+.dotts {
+    display: flex;
+    gap: 10px;
+}
+
+.dotts span {
+    width: 8px;
+    height: 8px;
+    background: #DDD;
+}
+
+.learn-more {
+    color: #EA625C;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 160%;
+    text-transform: uppercase;
+    padding-left: 50px;
+    position: relative;
+}
+
+.learn-more::before {
+    content: '';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 40px;
+    height: 3px;
+    background: #EA625C;
+}
+.about{
+    padding: 70px 0;
+}
+.about-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.about-info .left{
+    max-width: 490px;
+}
+.about-info  .right{
+    width: 400px;
+    height: 600px;
+}
+.right img{
+    width: inherit;
+    height: inherit;
+}
+.info{
+    padding: 240px 0;
+    width: 100%;
+    background-image: url('../images/runner.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.info .left{
+    max-width: 490px;
+    margin-left: auto;
+}
+.info .left .title, .info .left .description{
+    color: #FFF;
+    border-color: #FFF;
+}

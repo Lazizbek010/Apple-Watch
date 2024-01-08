@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple Watch</title>
+    <!-- AOS ANIMATION -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="./images/icon.ico" type="image/x-icon">
+    <!-- Google Fonts Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/media.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="35" height="42" fill="red">
+                        <path fill="#333"
+                            d="M35 30.45a61.14 61.14 0 0 1-.722 1.925 24.671 24.671 0 0 1-2.231 4.025c-1.181 1.684-2.144 2.844-2.888 3.478-1.137 1.05-2.384 1.597-3.697 1.619-.94 0-2.078-.263-3.412-.81-1.334-.546-2.56-.809-3.675-.809-1.181 0-2.428.263-3.784.81-1.357.546-2.428.83-3.26.853-1.268.043-2.515-.503-3.784-1.663-.81-.7-1.816-1.903-3.019-3.61-1.29-1.815-2.362-3.915-3.194-6.321C.437 27.344 0 24.828 0 22.4c0-2.778.613-5.184 1.816-7.197A10.583 10.583 0 0 1 5.6 11.375a10.047 10.047 0 0 1 5.119-1.444c1.006 0 2.319.307 3.96.919 1.64.613 2.69.919 3.15.919.35 0 1.508-.372 3.477-1.094 1.86-.678 3.435-.94 4.725-.831 3.5.284 6.125 1.662 7.875 4.134-3.128 1.903-4.681 4.55-4.637 7.963.022 2.646.984 4.856 2.887 6.606A8.897 8.897 0 0 0 35 30.45ZM26.206 0c.022.284.044.547.044.831 0 2.078-.766 4.025-2.275 5.819-1.838 2.144-4.047 3.369-6.431 3.172a8.525 8.525 0 0 1-.044-.788c0-1.99.875-4.134 2.406-5.884.766-.875 1.75-1.619 2.931-2.21 1.204-.568 2.32-.896 3.37-.94Z" />
+                    </svg>
+                </a>
+                <div class="right">
+                    <ul class="list-item">
+                        <li><a class="active" href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Offers</a></li>
+                        <li><a href="#">Services</a></li>
+                    </ul>
+                    <div class="bars">
+                        <i class="fa-solid fa-bars-staggered fa-2xl"></i>
+                    </div>
+                    <div class="search">
+                        <input type="text" placeholder="How can we help you?">
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="hero__content">
+                    <div class="left" data-aos="fade-right" data-aos-duration="800">
+                        <h1 class="title">Freedom calls.</h1>
+                        <p class="description">Answer a call from your surfboard. Ask Siri to send a message. Stream
+                            your favorite songs on your run. And do it all while leaving your phone behind. Introducing
+                            Apple Watch Series 3 with cellular. Now you have the freedom to go with just your watch.</p>
+                        <button class="site-btn">Watch the keynote</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="cards">
+            <div class="container">
+                <div class="cards-content">
+                    <div class="card" data-aos-duration="1000" data-aos="fade-up">
+                        <h1 class="card-title">Know your runs. In and out.</h1>
+                        <p>Train smarter with more in-run stats. Want to compare a run to your last five? Just swipe
+                            left. Mark splits by selecting pause or using gestures, like tapping the screen or
+                            double-clicking the side button. And get a full post-run report, including elevation.</p>
+                        <div class="dotts">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="card" data-aos-duration="1200" data-aos="fade-up">
+                        <h1 class="card-title">Run in good spirits.</h1>
+                        <p>A little support can go a long way. You can receive encouraging emoji from friends. And
+                            reminders triggered by your friends’ shared activity, the current weather, or your own
+                            history give you every reason to run.</p>
+                        <div class="dotts">
+                            <span></span><span></span><span></span>
+                        </div>
+                    </div>
+                    <div class="card" data-aos-duration="1500" data-aos="fade-up">
+                        <h1 class="card-title">Just do it. Sunday.</h1>
+                        <p>Run every Sunday and see how long you can keep your streak alive. Fuel your run with
+                            exclusive Nike+ Run Club playlists on Apple Music.</p>
+                        <a href="" class="learn-more">Learn more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="container">
+                <div class="about-info">
+                    <div class="left" data-aos-duration="1000" data-aos="flip-left">
+                        <h1 class="title">Nike Sport Band.
+                            Light. Flexible.
+                            Breathable.</h1>
+                        <p class="description">Made from the same durable, lightweight fluoroelastomer as the original
+                            Apple Watch Sport Band, the Nike Sport Band reduces weight and improves ventilation via row
+                            after row of compression-molded perforations.</p>
+                        <button class="site-btn">Buy now</button>
+                    </div>
+                    <div class="right" data-aos-duration="1000" data-aos="flip-right">
+                        <img src="./images/watch.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="left" data-aos-duration="1000" data-aos="zoom-in">
+                    <h1 class="title">Take control of your health. </h1>
+                    <p class="description">With built-in GPS and altimeter, Apple Watch Nike+ has all the features to
+                        help you take your run to the next level. You can even pair your watch wirelessly with
+                        compatible gym equipment. And it’s swimproof, so you can take a post-run dip in the pool.</p>
+                    <button class="site-btn">Explore features</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <!-- AOS ANIMATION -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
